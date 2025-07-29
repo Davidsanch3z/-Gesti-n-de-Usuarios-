@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Frontend and user-service node modules
+frontend/node_modules/
+user-service/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+*.env
+
+# Database files
+*.sqlite
+user-service/database/*.sqlite
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# VSCode settings
+.vscode/
+
+# Mac files
+.DS_Store
